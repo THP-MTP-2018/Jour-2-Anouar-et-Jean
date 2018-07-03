@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Page Google</title>
     <link rel="stylesheet" href="style.css">
-
   </head>
   <body>
     <header>
@@ -25,14 +24,11 @@
               </div>
 
               <div class="recherche">
-                <form class="" action="index.html" method="post">
-                  <input style="color : black;" type="text" name="" value="">
-
-                </form>
+                  <input id="input" style="color : black;" type="text">
               </div>
 
               <div class="boutons">
-                <button type="button" name="button"><strong style="color : grey">Recherche Google</strong></button>
+                <button onclick="search()" type="button" name="button"><strong style="color : grey">Recherche Google</strong></button>
                 <button type="button" name="button"><strong style="color : grey">J'ai de la chance</strong></button>
               </div>
 
@@ -62,5 +58,21 @@
           </div>
       </div>
     </footer>
+<script type="text/javascript">
+function search() {
+
+  window.location.href = "https://www.google.fr/search?q="+ $('#input').val() +"+&oq="+ $('#input').val() +"&aqs=chrome..69i57j69i60l3j0l2.643j0j1&sourceid=chrome&ie=UTF-8"
+  }
+
+  window.onkeydown = function(e) {
+      var key = e.keyCode || e.which;
+      switch (key) {
+          case 13:
+          window.location.href = "https://www.google.fr/search?q="+ $('#input').val() +"+&oq="+ $('#input').val() +"&aqs=chrome..69i57j69i60l3j0l2.643j0j1&sourceid=chrome&ie=UTF-8";
+          break;
+      }
+  };
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   </body>
 </html>
