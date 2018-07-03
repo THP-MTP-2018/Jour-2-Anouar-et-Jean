@@ -1,23 +1,28 @@
 body{
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
 
 }
 
   section{
-    margin: auto;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+
+
   }
 
   .conteneur{
-
+    margin: auto;
+    flex-direction: column;
   }
 
   input{
     outline: none;
-
-    width: 150%;
-    border:
-
+    width: 400px;
 
   }
+
+.recherche{
+  flex-direction:column;
+  justify-content:center;
+
+}
