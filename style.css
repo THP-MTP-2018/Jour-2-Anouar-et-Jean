@@ -7,9 +7,17 @@ body{
 
   section{
     margin: auto;
-
   }
 
   .conteneur{
+
+  }
+
+  input{
+    outline: none;
+
+    width: 150%;
+    border:
+
 
   }
