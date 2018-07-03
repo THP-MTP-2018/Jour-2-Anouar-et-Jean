@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+  section{
+    background: blue;
+    margin: auto;
+
+  }
+
+  .conteneur{
+
+  }
