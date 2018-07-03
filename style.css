@@ -1,20 +1,12 @@
 body{
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
 
 }
 
   section{
     display: flex;
-<<<<<<< HEAD
-    height: 100vh;
-    overflow: hidden;
-
-
-  }
-
-  .conteneur{
-    margin: auto;
-    flex-direction: column;
-=======
     justify-content: center;
     border: 1px solid;
     width: 100%;
@@ -34,7 +26,6 @@ body{
     justify-content: center;
     width: 100%;
 
->>>>>>> 5927192b7d9903a12e4921b11aec539e677fbb1d
   }
 
 form{
@@ -44,16 +35,6 @@ form{
 
   input{
     outline: none;
-<<<<<<< HEAD
-    width: 400px;
-
-  }
-
-.recherche{
-  flex-direction:column;
-  justify-content:center;
-
-=======
     height: 30px;
     padding: 2.5px 0 2.5px 10px;
     margin: 30px  0 30px 0;
@@ -84,5 +65,4 @@ button:hover{
 .boutons{
   display: flex;
   justify-content: center;
->>>>>>> 5927192b7d9903a12e4921b11aec539e677fbb1d
 }
