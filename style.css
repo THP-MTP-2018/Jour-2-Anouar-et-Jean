@@ -4,6 +4,7 @@ body{
 
   section{
     display: flex;
+<<<<<<< HEAD
     height: 100vh;
     overflow: hidden;
 
@@ -13,10 +14,37 @@ body{
   .conteneur{
     margin: auto;
     flex-direction: column;
+=======
+    justify-content: center;
+    border: 1px solid;
+    width: 100%;
+    margin: auto;
+}
+
+  .conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    width: 50%;
   }
+
+  .image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+>>>>>>> 5927192b7d9903a12e4921b11aec539e677fbb1d
+  }
+
+form{
+  border :2px solid;
+  width: 99.9%;
+}
 
   input{
     outline: none;
+<<<<<<< HEAD
     width: 400px;
 
   }
@@ -25,4 +53,36 @@ body{
   flex-direction:column;
   justify-content:center;
 
+=======
+    height: 30px;
+    padding: 2.5px 0 2.5px 10px;
+    margin: 30px  0 30px 0;
+    width: 98%;
+    border:
+  }
+
+  input[type="text"]
+{
+    font-size:24px;
+}
+
+button{
+  margin: 0 5px 0 5px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  background: #F2F2F2;
+}
+
+button:hover{
+  border : 1px solid #c6c6c6;
+}
+
+.boutons{
+  display: flex;
+  justify-content: center;
+>>>>>>> 5927192b7d9903a12e4921b11aec539e677fbb1d
 }
