@@ -8,7 +8,6 @@ body{
   section{
     display: flex;
     justify-content: center;
-    border: 1px solid;
     width: 100%;
     margin: auto;
 }
@@ -17,7 +16,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid;
     width: 50%;
   }
 
@@ -29,7 +27,6 @@ body{
   }
 
 form{
-  border :2px solid;
   width: 99.9%;
 }
 
